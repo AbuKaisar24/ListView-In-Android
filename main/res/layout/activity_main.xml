@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+  <SearchView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/search"
+      android:queryHint="Search here">
+
+  </SearchView>
+    <requestFocus/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="525dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:divider="#000000"
+        android:dividerHeight="4dp"
+        >
+
+    </ListView>
+</RelativeLayout>
